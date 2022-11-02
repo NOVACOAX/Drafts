@@ -1,0 +1,39 @@
+/*************************
+*******Typography******
+**************************/
+
+::-webkit-scrollbar{
+    display:none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #363d4d;
+    background-color: #FFFFFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #747e92;
+}
+
+a {
+    text-decoration: none;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+    color:#301580;
+}
+
+a:focus, 
+a:hover {
+    text-decoration: none;
+    outline: none;
+    color:#7400d2;
+}
+
+.footer {
+    background-color: #DADFEA;
+}
